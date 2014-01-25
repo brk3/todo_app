@@ -27,6 +27,15 @@ describe User do
     it { should_not be_valid }
   end
 
+  describe "when email address is non lowercase" do
+    it "should be saved as all lowercase" do
+      @user.email = "FOO@bAr.com"
+      @user.save
+      from_db = @user.reload.email
+      expect(from_db).to eq @user.email.downcase
+    end
+  end
+
   describe "when name is too long" do
     before { @user.name = "a" * 51 }
     it { should_not be_valid }
