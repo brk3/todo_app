@@ -36,6 +36,7 @@ gem 'rspec-rails'
 gem 'capybara'
 gem 'selenium-webdriver'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
