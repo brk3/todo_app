@@ -32,14 +32,15 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :test do
+  gem 'factory_girl_rails'
+end
+
 gem 'rspec-rails'
 gem 'capybara'
 gem 'selenium-webdriver'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'
