@@ -1,7 +1,6 @@
 TodoApp::Application.routes.draw do
   root 'static_pages#home'
 
-  resources :tasks
   resources :users
 
   get "users/new"
