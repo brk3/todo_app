@@ -1,25 +1,21 @@
 @import "bootstrap";
 
 body {
-    padding: 30px;
+  margin: 50px 100px 50px 100px;
 }
 
 .page-header {
-    margin-top: -20px;
+  margin-top: -20px;
 }
-
-@mixin box_sizing {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-/* miscellaneous */
 
 .debug_dump {
-    clear: both;
-    float: left;
-    width: 100%;
-    margin-top: 45px;
-    @include box_sizing;
+  clear: both;
+  float: left;
+  margin-top: 45px;
+}
+
+input, textarea, select, .uneditable-input {
+  display: block;
+  margin-bottom: 15px;
+  width: 75%;
 }
