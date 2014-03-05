@@ -6,14 +6,13 @@ body {
 
 h1 {
   margin-bottom: 50px;
+  text-align: center;
 }
 
-.page-header {
-  margin-top: -20px;
-}
-
-input {
+label, input {
   width: 70%;
+  margin: 0px auto 5px auto;
+  display: block;
 }
 
 input[type=submit] {
