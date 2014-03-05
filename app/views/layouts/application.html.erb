@@ -37,10 +37,7 @@
           <li><%= link_to "Profile", @user %></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-    </nav>
-
-    <div class="container">
+      </nav>
       <div class="row">
         <div class="col-md-6">
           <% flash.each do |key, value| %>
@@ -49,7 +46,7 @@
         </div>
       </div>
       <%= yield %>
-    </div>
+    </div><!-- /.container-fluid -->
   </body>
 
 </html>

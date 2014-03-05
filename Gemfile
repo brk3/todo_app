@@ -41,6 +41,7 @@ gem 'capybara'
 gem 'selenium-webdriver'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
+gem 'purecss-rails'
 
 # Use unicorn as the app server
 # gem 'unicorn'
